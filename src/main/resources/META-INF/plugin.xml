@@ -1,0 +1,20 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.ooneex.icons</id>
+    <name>Ooneex Icons</name>
+    <version>1.0.0</version>
+    <idea-version since-build="221.6008.13" />
+
+    <vendor email="franck@ooneex.com" url="https://www.ooneex.com">Ooneex</vendor>
+
+    <description><![CDATA[
+    Ooneex icons Plugin is a beautiful icons for idea platform.
+    It's free 😀
+  ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="48fdf37b-6529-4039-8a51-8ac1c13f7442" path="/theme/ooneex.theme.json" />
+    </extensions>
+</idea-plugin>

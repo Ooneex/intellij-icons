@@ -1,0 +1,10 @@
+{
+  "name": "Ooneex Icons",
+  "dark": true,
+  "author": "Ooneex - Franck",
+  "ui": {
+  },
+  "icons": {
+    "/nodes/folder.svg": "/icons/folderTypes/folder.svg"
+  }
+}
