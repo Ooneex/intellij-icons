@@ -69,6 +69,8 @@ public class FolderDataProvider {
         this.folders.put(".turbo", IconLoader.getIcon("icons/folderTypes/ignore.svg", FolderDataProvider.class));
         this.folders.put(".idea", IconLoader.getIcon("icons/folderTypes/ignore.svg", FolderDataProvider.class));
         this.folders.put("node_modules", IconLoader.getIcon("icons/folderTypes/node_modules.svg", FolderDataProvider.class));
+
+        this.folders.put("any_folder", IconLoader.getIcon("icons/folderTypes/folder.svg", FolderDataProvider.class));
     }
     public Map<String, Icon> getFolders() {
         return this.folders;

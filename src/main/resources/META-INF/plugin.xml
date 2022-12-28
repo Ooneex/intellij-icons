@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>com.ooneex.icons</id>
     <name>Ooneex Icons</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <idea-version since-build="221.6008.13" />
 
     <vendor email="franck@ooneex.com" url="https://www.ooneex.com">Ooneex</vendor>
@@ -15,6 +15,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="48fdf37b-6529-4039-8a51-8ac1c13f7442" path="/theme/ooneex.theme.json" />
+        <iconProvider implementation="com.ooneex.icons.providers.FileIconProvider" order="first" id="FileIconProvider"/>
     </extensions>
 </idea-plugin>

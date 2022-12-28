@@ -36,7 +36,13 @@ public class FileIconProvider extends IconProvider {
 
         if (file.isDirectory()) {
             @Nullable String name = file.getName().toLowerCase();
-            return this.folders.getOrDefault(name, null);
+            @Nullable Icon folder = this.folders.getOrDefault(name, null);
+
+            if (folder == null) {
+                this.folders.getOrDefault("any_folder", null);
+            }
+
+            return folder;
         }
 
         String name = file.getName().toLowerCase();
