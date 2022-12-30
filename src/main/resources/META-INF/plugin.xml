@@ -2,10 +2,10 @@
 <idea-plugin>
     <id>com.ooneex.icons</id>
     <name>Ooneex Icons</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <idea-version since-build="221.6008.13" />
 
-    <vendor email="franck@ooneex.com" url="https://www.ooneex.com">Ooneex</vendor>
+    <vendor email="franck@ooneex.com" url="https://ooneex.com">Ooneex</vendor>
 
     <description><![CDATA[
     Ooneex icons Plugin is a beautiful icons for idea platform.
